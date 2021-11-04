@@ -459,7 +459,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"hD4hw":[function(require,module,exports) {
-const arr = [
+var arr = [
     1,
     2,
     3,
@@ -467,8 +467,9 @@ const arr = [
     5,
     6
 ];
-const doubled = arr.map((el)=>2 * el
-);
+var doubled = arr.map(function(el) {
+    return 2 * el;
+});
 console.log(doubled);
 
 },{}]},["lBB98","hD4hw"], "hD4hw", "parcelRequired303")
